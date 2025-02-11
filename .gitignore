@@ -1,0 +1,13 @@
+syslinux
+grub
+efiboot
+airootfs/**
+
+bootstrap_packages.x86_64
+profiledef.sh
+
+!/airootfs/root/
+!/airootfs/etc/
+
+!**/airootfs/etc/locale.conf
+!**/airootfs/root/customize_airootfs.sh
