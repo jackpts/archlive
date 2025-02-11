@@ -19,8 +19,8 @@
 
 ```bash
 #!/bin/bash
-    useradd -m -G wheel -s /bin/bash myuser
-    echo "myuser:password" | chpasswd
+    useradd -m -s /bin/fish jacky
+    echo "jacky:123" | chpasswd
     systemctl enable NetworkManager
 
     pacman -S --noconfirm yay
@@ -45,5 +45,5 @@
 
 ```
 
-### Check `out` dir to furthur iso record to flash drive
+### Check `out` dir to further iso burning to flash drive
 
