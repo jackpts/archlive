@@ -22,15 +22,7 @@
     useradd -m -s /bin/fish jacky
     echo "jacky:123" | chpasswd
     systemctl enable NetworkManager
-
-    pacman -S --noconfirm yay
-    yay -S --noconfirm paru
-
-    # For hyprland config:
-    mkdir -p ~/archlive/archiso/airootfs/home/user/.config/hypr
-    mkdir -p ~/archlive/archiso/airootfs/home/user/.config/waybar
-    cp /path/to/your/hyprland.conf ~/archlive/archiso/airootfs/home/user/.config/hypr/
-    cp -r /path/to/your/waybar/config ~/archlive/archiso/airootfs/home/user/.config/waybar/
+    # ...
 ```
 
 ```bash
@@ -46,4 +38,3 @@
 ```
 
 ### Check `out` dir to further iso burning to flash drive
-
