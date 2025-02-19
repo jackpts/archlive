@@ -2,6 +2,8 @@ syslinux
 grub
 efiboot
 airootfs/**
+work
+out
 
 bootstrap_packages.x86_64
 profiledef.sh
