@@ -28,11 +28,13 @@ efibootmgr
 espeakup
 ethtool
 exfatprogs
+eza
 f2fs-tools
 fish
 fatresize
 foot-terminfo
 fsarchiver
+fzf
 git
 gpart
 gpm
@@ -128,4 +130,6 @@ wpa_supplicant
 wvdial
 xfsprogs
 xl2tpd
+zoxide
 zsh
+
