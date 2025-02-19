@@ -10,3 +10,8 @@ cd yay
 makepkg -si
 
 yay -S --noconfirm paru
+
+sudo pacman -S stow
+git clone --depth 1 https://github.com/jackpts/dotfiles.git ~/dotfiles
+cd ~/dotfiles
+stow .
